@@ -1,12 +1,15 @@
-# Projek_Analisis_Data_Python
-## Setup Environment - Anaconda
+# **Projek Analisis Data dengan Python**  
+## 1. Setup Environment 
+### A. Menggunakan Anaconda
+Jalankan perintah berikut di terminal atau Anaconda Prompt:  
 ```
-conda create --name main-ds python=3.9
+conda create --name main-ds python=3.13.2
 conda activate main-ds
 pip install -r requirements.txt
 ```
 
-## Setup Environment - Shell/Terminal
+### B. Menggunakan Shell/Terminal (Tanpa Anaconda) 
+Jalankan perintah berikut di terminal:  
 ```
 mkdir submission
 cd submission
@@ -15,13 +18,15 @@ pipenv shell
 pip install -r requirements.txt
 ```
 
-## Run steamlit app
-masuk ke IDE, disini saya menggunakan VSC dan jika sudah masuk ke VSC masuk ke folder:
-```
-cd dashboard
-```
+## 2. Menjalankan Aplikasi Streamlit  
 
-setelah itu jalankan dashboard dengan perintah
-```
-streamlit run dashboard.py
-```
+### Langkah-langkah: 
+1. Buka IDE (misalnya Visual Studio Code)  
+2. Navigasi ke folder proyek  
+   ```
+   cd Dashboard
+   ```
+3. Jalankan aplikasi Streamlit
+   ```
+   streamlit run Dashboard.py
+   ```
